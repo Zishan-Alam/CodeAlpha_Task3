@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="logo">
+      <img src="file.png" alt="Logo">
+    </div>
+    <textarea required placeholder="Write something here"></textarea>
+    <div id="name">
+      <label for="fileName">File Name</label>
+      <input type="text" id="fileName">
+    </div>
+    <div id="type">
+      <label for="saveAs">Save As</label>
+      <select id="saveAs">
+        <option value="text/plain">Text</option>
+        <option value="application/pdf">PDF</option>
+        <option value="application/vnd.openxmlformats-officedocument.wordprocessingml.document">DOCX</option>
+        <option value="text/html">HTML</option>
+        <option value="text/css">CSS</option>
+        <option value="application/json">JSON</option>
+        <option value="application/xml">XML</option>
+      </select>
+    </div>
+    <button id="btn">SAVE</button>
+  </div>
+
+  <footer>
+    Made with <span class="heart">&hearts;</span> by Zishan Alam Khan
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
